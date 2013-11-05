@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: black);
+      color: red;
+    }
+    a {
+      color: red;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="file:///Users/Rosie/documents/coding_course/learning_html/local_image.png">
+    <h1>ROSIE ROSIE ROSIE</h1>
+    <ul>
+      <li><a href="http://www.facebook.com">facebook</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>something i want to say</h2>
+    <p>something something something.</p>
+    <button>CLICK</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
