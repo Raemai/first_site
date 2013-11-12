@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
   
+  <link href='http://fonts.googleapis.com/css?family=Snippet' rel='stylesheet' type='text/css'></link>
+
   <style>
     header {
       text-align: center;
@@ -11,7 +13,11 @@
       color: red;
     }
     h1 {
-      font-size: 70px;
+      font-family: 'Snippet', sans-serif;
+      font-size: 75px;
+      text-align: center;
+      margin: 60px 0 0 0;
+      color: #aaaaaa;
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -30,7 +36,14 @@
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
+      font-family: 'Snippet', sans-serif;
+      font-size: 10px;
     }
+
+    article h2 {
+      font-size: 5px;
+    }
+
     @media (max-width: 500px) {
       h1 {
         font-size: 36px;
@@ -45,7 +58,7 @@
 </head>
 <body>
   <header>
-    <img src="file:///Users/Rosie/documents/coding_course/learning_html/local_image.png">
+    <img src="file:///Users/Rosie/pictures/rosiekebleball.jpg">
     <h1>practice</h1>
     <ul>
       <li><a href="http://www.facebook.com/raemaitom">facebook</a></li>
@@ -78,7 +91,7 @@
     <button>CLICK</button>
 
 
-    
+
   </article>
   <script>
     $("button").on("click", function() {
